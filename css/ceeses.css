@@ -1,10 +1,19 @@
 * {
   box-sizing: border-box;
 }
+section{
+  background-color: darkgrey;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid black;
+}
 body {
   background-color: white;
   font-family: serif;
-  width: 100%;
+  width: 99%;
 }
 h1 {
   color: black;
@@ -16,48 +25,42 @@ h2{
   font-family: serif;
   margin-bottom: 0px;
   text-align: right;
-  
 }
 p {
   color: black;
   clear: right;
   margin-top: 0px;
 }
-#box{
-  background-color: darkgrey;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+
+.title1{
+  background-color: lightpink;
+  width: 30%;
+  float: right;
+  border: 1px solid black;
 }
 
+.title2{
+  color: white;
+  background-color: brown;
+  width: 30%;
+  float: right;
+  border:  1px solid black;
 }
-#title2 {
-  color: white
+
+.title3{
+  background-color: khaki;
+  width: 30%;
+  float: right;
+  border:  1px solid black;
 }
+
 
 @media (min-width: 992px){
-  #container1{
-    float: left;
-    width: 33.33%;
-  }
-  #container2{
-    float: left;
-    width: 33.33%;
+ 
   }
 @media (min-width: 768px) and (max-width: 991px){
-  div{
-    float: left;
-  }
+  
 }
 @media (max-width: 767px){
-  #container1{
-    float: left;
-    width: 33.33%;
-    color: red;
-  }
-  section{
-    float: left;
-    width: 33.33%;
-    background-color: lightgrey;
-  }
+ 
 }
