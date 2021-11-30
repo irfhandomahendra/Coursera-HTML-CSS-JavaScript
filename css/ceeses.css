@@ -18,12 +18,14 @@ h1 {
   color: black;
   font-family: serif;
   text-align: center;
+  font-size: 175%;
 }
 h2{
   color: black;
   font-family: serif;
   margin-bottom: 0px;
   text-align: center;
+  font-size: 125%;
   overflow: hidden;
 }
 #title1{
