@@ -1,19 +1,18 @@
 * {
   box-sizing: border-box;
 }
-section{
-  background-color: darkgrey;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 15px;
-  padding: 10px;
-  border: 1px solid black;
+p {
+  color: black;
+  clear: right;
+  margin-top: 0px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 body {
   background-color: white;
   font-family: serif;
   width: 99%;
+  padding: 0px;
 }
 h1 {
   color: black;
@@ -24,43 +23,91 @@ h2{
   color: black;
   font-family: serif;
   margin-bottom: 0px;
-  text-align: right;
+  text-align: center;
+  overflow: hidden;
 }
-p {
-  color: black;
-  clear: right;
-  margin-top: 0px;
-}
-
-.title1{
+#title1{
   background-color: lightpink;
-  width: 30%;
+  width: 150px;
+  position: relative;
   float: right;
+  top: -21px;
+  right: -1px;
   border: 1px solid black;
 }
 
-.title2{
+#title2{
   color: white;
   background-color: brown;
-  width: 30%;
+  width: 150px;
   float: right;
-  border:  1px solid black;
+  position: relative;
+  top: -21px;
+  right: -1px;
+  border: 1px solid black;
 }
 
-.title3{
+#title3{
   background-color: khaki;
-  width: 30%;
+  width: 150px;
   float: right;
+  position: relative;
+  top: -21px;
+  right: -1px;
   border:  1px solid black;
 }
-
 
 @media (min-width: 992px){
- 
+ section{
+    background-color: darkgrey;
+    width: 30.6%;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    position: relative;
+    float: left;
   }
+  #sec1{
+    margin-left: 20px;
+  }
+  #sec2{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #sec3{
+    margin-right: 20px;
+  }
+}
 @media (min-width: 768px) and (max-width: 991px){
-  
+  section{
+    background-color: darkgrey;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    float: left;
+    position: relative;
+  }
+  #sec1{
+    width: 46%;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  #sec2{
+    width: 46%;
+    margin-right: 20px;
+  }
+  #sec3{
+    width: 94.4%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 @media (max-width: 767px){
- 
+  section{
+    background-color: darkgrey;
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    position: relative;
+  }
 }
