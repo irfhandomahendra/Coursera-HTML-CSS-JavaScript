@@ -8,7 +8,7 @@ li{
 	border-top: 1px solid black;
 }
 .container{
-	margin: 0;
+	margin-left: 10px;
 }
 #header-nav{
 	background-color: lightsteelblue;
