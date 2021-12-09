@@ -23,17 +23,16 @@ li{
 	text-decoration: none;
 }
 #nav-list {
- 	 margin-top: 0;
- 	 margin-bottom: 0;
- 	 padding: 0;
- 	 background-color: whitesmoke;
+ 	margin-top: 0;
+ 	margin-bottom: 0;
+ 	padding: 0;
+ 	background-color: whitesmoke;
 }
 #nav-list a {
 	color: black;
-  	text-align: center;
 }
 #nav-list a:hover {
- 	 background: #E7E7E7;
+ 	background: #E7E7E7;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
